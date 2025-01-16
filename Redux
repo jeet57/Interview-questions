@@ -1,0 +1,86 @@
+For someone with 8 years of experience in Redux, the questions asked would likely focus on advanced concepts, optimization, best practices, and deep understanding of state management patterns. Here are some of the most common questions:
+
+### 1. **What is Redux, and why would you choose it for state management?**
+   - Understanding the core principles of Redux, including the single store, actions, reducers, and immutability.
+   - When and why to choose Redux over other state management solutions like Context API, MobX, or Recoil.
+
+### 2. **Explain the flow of data in a Redux application.**
+   - Describe the lifecycle from dispatching actions to updating the state via reducers, and re-rendering components.
+
+### 3. **What is the purpose of the `combineReducers` function?**
+   - When and how to use `combineReducers` to split the Redux store into multiple smaller reducers, and the benefits of this approach.
+
+### 4. **How does Redux handle asynchronous actions?**
+   - How middleware like `redux-thunk` and `redux-saga` can be used to handle asynchronous actions.
+   - The differences and trade-offs between these two middleware.
+
+### 5. **What are Redux middlewares, and how do they work?**
+   - What middleware is, how it's used in the Redux store, and examples like `redux-thunk`, `redux-logger`, or custom middleware.
+   - Understanding the "middleware chain" and how to modify the behavior of dispatching actions.
+
+### 6. **Explain the concept of Normalization in Redux state.**
+   - How normalization helps in managing deeply nested data and improves performance.
+   - Using libraries like `normalizr` to normalize data and the advantages of using flat structures in Redux.
+
+### 7. **What is the difference between `dispatch` and `getState`?**
+   - Explain when and how to use `dispatch` for sending actions and `getState` to read the current state.
+
+### 8. **How do you handle performance optimization in a Redux-based app?**
+   - Techniques like memoization (using `reselect`), lazy loading, `shouldComponentUpdate`, and avoiding unnecessary re-renders.
+   - Using `React-Redux` hooks such as `useSelector` and `useDispatch` optimally.
+
+### 9. **What is the role of `Redux Toolkit`?**
+   - Why Redux Toolkit is considered the standard approach for Redux development.
+   - The benefits of using `createSlice`, `createAsyncThunk`, and the simplified API over traditional Redux.
+
+### 10. **What are some common pitfalls or anti-patterns in Redux?**
+   - Issues like overusing the global state, unnecessary complexity in reducers, or dispatching actions in the wrong lifecycle methods.
+   - Strategies to avoid "spaghetti" state management or unwarranted global state.
+
+### 11. **How do you handle complex state like forms or large data structures in Redux?**
+   - Techniques for managing form state, array of objects, or large-scale data sets in a predictable manner.
+
+### 12. **What is the difference between local state and global state in Redux?**
+   - When to use Redux for global state and when to use local component state.
+   - Trade-offs of each and the performance implications.
+
+### 13. **How does Redux integrate with React?**
+   - The role of `react-redux`, the connection between Redux state and React components, and hooks like `useSelector` and `useDispatch`.
+
+### 14. **How do you handle undo/redo functionality in Redux?**
+   - Using state snapshots or external libraries (like `redux-undo`) to handle undo/redo patterns in a Redux store.
+
+### 15. **How would you refactor a legacy Redux application?**
+   - Approaches to modularizing or simplifying the Redux setup, using Redux Toolkit, reducing boilerplate, and modernizing the codebase.
+
+### 16. **What are selectors, and how do they optimize Redux state access?**
+   - The importance of memoized selectors (using `reselect`), and how they can optimize component rendering and state access performance.
+
+### 17. **How do you handle large-scale state management in a complex app?**
+   - Strategies like splitting the Redux store into domains, using Redux Toolkit’s `createSlice` to manage each part of the app independently, and applying modularization principles.
+
+### 18. **What is the role of the `Provider` in React-Redux, and why is it important?**
+   - Explanation of how `Provider` makes the Redux store available to the entire component tree, and the importance of it in React-Redux integration.
+
+### 19. **Explain the concept of "action creators" in Redux.**
+   - The purpose of action creators to standardize action creation, and the advantages of using them over inline action objects.
+
+### 20. **What are the differences between Redux Thunk and Redux Saga?**
+   - A comparison of the two middleware libraries used for handling side effects in Redux. When to use one over the other, including pros and cons.
+
+### 21. **What are `redux-persist` and `redux-devtools`?**
+   - How to persist Redux state across browser sessions and how to integrate devtools for debugging Redux state.
+
+### 22. **Can you explain Redux DevTools and how to use it effectively?**
+   - How to set up and leverage Redux DevTools for debugging and inspecting actions and state in your app.
+
+### 23. **What are the best practices for testing Redux-based applications?**
+   - Writing unit tests for actions, reducers, and async actions using tools like Jest and Redux mock stores.
+
+### 24. **What is the "React-Redux Connect" function, and how does it differ from React hooks (`useSelector`, `useDispatch`)?**
+   - Discuss the `connect` HOC and how it relates to the newer hook-based API in `react-redux`.
+
+### 25. **How do you manage authentication and session data in Redux?**
+   - Best practices for managing auth tokens, user sessions, and redirecting users based on authentication state.
+
+These questions touch on both foundational knowledge and advanced concepts, and they align with the kind of depth expected from someone with 8 years of experience working with Redux.
