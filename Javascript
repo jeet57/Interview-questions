@@ -1,0 +1,74 @@
+For a developer with 8 years of experience in JavaScript, interview questions will typically focus on deeper concepts, design patterns, performance optimization, and advanced features of JavaScript. Here’s a list of commonly asked questions in such cases:
+
+### 1. **JavaScript Fundamentals & Advanced Topics**
+- **What is the difference between `==` and `===`?**
+- **Explain closures in JavaScript. Can you give an example where closures are useful?**
+- **What are the different ways to create objects in JavaScript?**
+- **What is the event loop and how does it work in JavaScript?**
+- **Explain the concept of hoisting. How does hoisting work with variables and functions?**
+- **What is the difference between `null` and `undefined`?**
+- **What is the purpose of `bind()`, `call()`, and `apply()`?**
+- **Can you explain the `this` keyword in JavaScript and how it behaves in different contexts?**
+- **What are promises and how do they work? What is the difference between `.then()` and `async/await`?**
+- **What are the different ways to handle asynchronous code in JavaScript (callbacks, promises, async/await)?**
+
+### 2. **Performance and Optimization**
+- **How do you optimize JavaScript performance in a large-scale application?**
+- **What are the best practices for minimizing reflows and repaints in the DOM?**
+- **What is the difference between synchronous and asynchronous code execution, and when should you use one over the other?**
+- **What is debouncing and throttling? Can you give an example where they are useful?**
+- **How does the JavaScript engine optimize code execution? What is JIT compilation?**
+- **What are the memory management techniques in JavaScript?**
+
+### 3. **ES6+ and Modern JavaScript**
+- **What are the new features introduced in ES6 and how do they improve JavaScript development?**
+- **What is the spread operator (`...`) and how is it different from `Object.assign()`?**
+- **What are `let` and `const`? How do they differ from `var`?**
+- **Can you explain destructuring assignment in JavaScript and where you would use it?**
+- **What are modules in JavaScript and how do you implement them?**
+- **Explain arrow functions and their lexical binding of `this`.**
+- **What is the `Map` object in JavaScript, and how is it different from regular objects?**
+
+### 4. **Design Patterns and Architectures**
+- **What design patterns have you used in JavaScript, and can you explain one with an example?**
+- **What is the Module pattern in JavaScript, and why would you use it?**
+- **Can you explain the Singleton pattern and provide an example of its use in JavaScript?**
+- **What are Higher-Order Functions in JavaScript? Can you give examples of how they are used?**
+- **What is the Factory pattern and how is it applied in JavaScript?**
+
+### 5. **JavaScript Frameworks & Libraries**
+- **Have you worked with any JavaScript frameworks like React, Angular, or Vue? How do they differ?**
+- **Explain the concept of Virtual DOM in React and how it improves performance.**
+- **What are the key differences between class-based and functional components in React?**
+- **How would you handle state management in a large-scale JavaScript application?**
+- **What is Redux and how does it integrate with React?**
+
+### 6. **Testing and Debugging**
+- **What are your approaches to writing unit tests in JavaScript?**
+- **What testing frameworks are you familiar with (Jest, Mocha, Jasmine)?**
+- **How do you debug JavaScript applications? What tools do you use (e.g., Chrome DevTools, console logging, breakpoints)?**
+- **What is TDD (Test Driven Development) and have you used it in JavaScript projects?**
+
+### 7. **Cross-Browser Compatibility & Security**
+- **How do you ensure your JavaScript code works across different browsers and devices?**
+- **What are some common security vulnerabilities in JavaScript, and how do you mitigate them (e.g., XSS, CSRF)?**
+- **How would you handle authentication and authorization in a single-page application (SPA)?**
+  
+### 8. **Node.js and Server-Side JavaScript**
+- **How does Node.js differ from traditional server-side JavaScript (e.g., PHP, Python)?**
+- **What is the event-driven, non-blocking I/O model in Node.js?**
+- **What are some common use cases for Node.js, and how would you design a scalable Node.js application?**
+- **Can you explain the role of `process`, `fs`, and `http` modules in Node.js?**
+- **How would you manage asynchronous operations in Node.js (callbacks, promises, async/await)?**
+
+### 9. **Miscellaneous**
+- **How would you handle version control in JavaScript projects (using Git)?**
+- **What is your experience with code splitting and lazy loading in JavaScript?**
+- **Can you describe a time when you faced a challenging bug in a JavaScript project and how you solved it?**
+  
+### 10. **Code Review and Collaboration**
+- **What do you look for when reviewing someone else's JavaScript code?**
+- **What tools or practices do you use to ensure maintainable and clean JavaScript code?**
+- **How do you keep yourself updated with the latest changes and trends in the JavaScript ecosystem?**
+
+These questions reflect the depth of understanding expected from someone with several years of experience in JavaScript, touching on advanced topics and practical expertise in building scalable, efficient, and maintainable JavaScript applications.
