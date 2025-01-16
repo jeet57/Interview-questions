@@ -1,0 +1,56 @@
+When interviewing or discussing TypeScript with someone who has around 8 years of experience, the questions tend to focus on both deep understanding of the language and practical application in large-scale projects. Here’s a list of commonly asked questions for experienced TypeScript developers:
+
+### Advanced TypeScript Features:
+1. **What are generics in TypeScript, and how are they used? Can you provide an example?**
+2. **Explain the difference between `interface` and `type` in TypeScript. When would you prefer one over the other?**
+3. **What are mapped types, and how can they be useful in a TypeScript application?**
+4. **What is the purpose of `never` type, and when would you use it in TypeScript?**
+5. **Can you explain the concept of "Declaration Merging" in TypeScript and provide an example?**
+6. **What are conditional types, and how would you use them in TypeScript?**
+7. **What are the differences between `unknown` and `any` types?**
+8. **Explain the role of `as const` in TypeScript. How does it differ from a regular assignment?**
+9. **How do you handle nullable types in TypeScript? What is the difference between `null` and `undefined` in type systems?**
+10. **Explain type guards in TypeScript and give an example of how they improve type safety.**
+11. **What are `keyof`, `typeof`, and `infer` in TypeScript, and how do they enhance the typing system?**
+12. **What are the benefits and challenges of using `strictNullChecks`? How do you ensure compatibility in codebases?**
+
+### TypeScript in Large-Scale Applications:
+1. **How do you handle TypeScript’s integration in a large existing JavaScript codebase?**
+2. **What strategies do you use to maintain type safety when working with third-party libraries without type definitions?**
+3. **How would you handle versioning in a TypeScript monorepo with multiple packages and libraries?**
+4. **How do you approach type definition management for APIs or microservices in TypeScript?**
+5. **Can you explain how TypeScript can be integrated with testing frameworks (like Jest or Mocha)? What are the challenges and benefits of doing so?**
+
+### TypeScript Compiler & Configuration:
+1. **How would you configure a TypeScript project with a `tsconfig.json` file for strict type checking?**
+2. **What are the best practices for optimizing TypeScript build times in large applications?**
+3. **Explain the importance of `tsconfig.json` and its various compiler options. What’s the difference between `esModuleInterop`, `isolatedModules`, and `allowJs`?**
+4. **How do you debug TypeScript code in a production environment? What are some common debugging tools or techniques you use?**
+
+### Performance and Best Practices:
+1. **What are some common performance pitfalls in TypeScript, and how do you avoid them?**
+2. **How do you optimize TypeScript code for better runtime performance, especially in large projects?**
+3. **Can you share some best practices for organizing TypeScript codebases in large teams?**
+4. **How do you handle type inheritance or polymorphism in TypeScript, and what patterns do you find most effective?**
+5. **Explain how you approach code reviews in TypeScript to ensure maintainability and consistency across teams.**
+
+### Integration with Frontend/Backend:
+1. **How does TypeScript interact with React (or another front-end framework)? How do you handle props, state, and context in a type-safe manner?**
+2. **Explain how TypeScript can be used effectively with Node.js and Express for backend development.**
+3. **What are some best practices for integrating TypeScript with a GraphQL or REST API in terms of type safety?**
+4. **How do you manage types for front-end and back-end when they are part of a full-stack TypeScript application?**
+
+### Error Handling and Debugging:
+1. **How do you handle errors and exceptions in a type-safe way in TypeScript?**
+2. **What tools do you use to handle TypeScript errors during development and production?**
+
+### Typescript Tooling and Ecosystem:
+1. **What is your experience with TypeScript linters (e.g., TSLint or ESLint with TypeScript)? How do you ensure code quality in large projects?**
+2. **What role do type definitions from DefinitelyTyped play in TypeScript projects? How do you handle missing or incomplete type definitions?**
+
+### Miscellaneous:
+1. **Explain the concept of "Type Inference" in TypeScript and how it works. Can you give examples of when TypeScript infers types automatically?**
+2. **What strategies do you use to ensure compatibility and avoid issues when migrating from JavaScript to TypeScript in an existing codebase?**
+3. **How does TypeScript improve collaboration and scalability in a development team, especially for large projects?**
+
+These questions are designed to assess not only the candidate’s technical knowledge but also their ability to apply TypeScript in practical, real-world scenarios.
