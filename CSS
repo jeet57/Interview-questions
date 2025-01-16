@@ -1,0 +1,100 @@
+Here are some common CSS-related questions typically asked to someone with 8 years of experience:
+
+### 1. **Explain CSS Flexbox and how it works.**
+   - Flexbox is a one-dimensional layout model that allows you to distribute space along a row or column and align items within the container. It's particularly useful for building responsive layouts.
+   - Key properties include `display: flex`, `flex-direction`, `justify-content`, `align-items`, `flex-grow`, `flex-shrink`, etc.
+   - Can you give examples of when to use `justify-content` vs `align-items`?
+
+### 2. **What is the difference between `position: absolute`, `relative`, `fixed`, and `sticky`?**
+   - `position: absolute`: Positioned relative to the nearest positioned ancestor (non-static).
+   - `position: relative`: Positioned relative to its normal position in the document flow.
+   - `position: fixed`: Positioned relative to the viewport; it stays fixed during scrolling.
+   - `position: sticky`: Acts like `relative` until it reaches a specified scroll position, then it behaves like `fixed`.
+
+### 3. **What are CSS Grid and Flexbox? When would you use one over the other?**
+   - **Flexbox** is best for 1D layouts (rows or columns).
+   - **CSS Grid** is ideal for 2D layouts (both rows and columns).
+   - Flexbox is great for simpler or smaller layouts, while Grid excels in more complex, two-dimensional arrangements.
+
+### 4. **What is the CSS Box Model, and how does it affect layout?**
+   - The Box Model consists of `content`, `padding`, `border`, and `margin`. The total width/height of an element is affected by these four properties.
+   - Knowledge of `box-sizing: border-box` to avoid width/height calculation issues is often expected.
+
+### 5. **Explain how to achieve responsive design with CSS.**
+   - Using media queries: `@media screen and (max-width: 768px) { ... }`.
+   - Leveraging flexible units like `%`, `vw`, `vh`, `em`, `rem`, etc.
+   - Implementing responsive techniques such as Flexbox, Grid, or fluid typography.
+
+### 6. **What is the difference between `em` and `rem` units?**
+   - `em`: Relative to the font-size of the parent element.
+   - `rem`: Relative to the font-size of the root element (`<html>`).
+   - When to use each in different scenarios.
+
+### 7. **How does CSS specificity work?**
+   - Specificity is determined by the number of IDs, classes, attributes, and element selectors in a rule.
+   - The order of specificity: inline styles > IDs > classes, pseudo-classes > elements and pseudo-elements.
+
+### 8. **What are pseudo-classes and pseudo-elements in CSS?**
+   - **Pseudo-classes**: Select elements based on their state (e.g., `:hover`, `:focus`, `:nth-child()`).
+   - **Pseudo-elements**: Select parts of an element (e.g., `::before`, `::after`, `::first-letter`).
+
+### 9. **How do you optimize CSS for performance?**
+   - Minimize CSS file size by using tools like CSS minifiers.
+   - Avoid excessive use of complex selectors, as they can slow down rendering.
+   - Limit the use of unnecessary or large CSS libraries (or selectively include parts).
+   - Leverage caching by properly configuring HTTP headers.
+
+### 10. **What are CSS animations and transitions?**
+   - **CSS Transitions**: Enable smooth changes between states of an element, such as on hover or focus (e.g., `transition: all 0.3s ease;`).
+   - **CSS Animations**: Allow keyframe-based animations with more control over time and multiple states (e.g., `@keyframes`).
+
+### 11. **What are custom properties (CSS variables), and how do you use them?**
+   - CSS variables are user-defined values that can be reused throughout your CSS. They are declared using `--variable-name: value;`.
+   - You access them with `var(--variable-name)` within the CSS.
+   - Ideal for theming or reusing values like colors, spacing, etc.
+
+### 12. **What are media queries and how do you use them?**
+   - Media queries are used to apply styles depending on the viewport size or device characteristics (like screen resolution, orientation, etc.).
+   - Example: `@media (max-width: 600px) { ... }`.
+
+### 13. **What are some common CSS bugs and how do you fix them?**
+   - Box model issues (e.g., element overflow or improper size calculation): Use `box-sizing: border-box;`.
+   - Clearing floats: Using `clearfix` or `overflow: auto;` to clear floated elements.
+   - Vertical centering: Flexbox or Grid can solve this more reliably.
+
+### 14. **How do you manage cross-browser compatibility in CSS?**
+   - Utilize vendor prefixes for properties like `-webkit-`, `-moz-`, `-ms-` for older browser support.
+   - Use CSS resets or normalize.css to standardize default styles across browsers.
+   - Test across different browsers and devices, and use tools like Autoprefixer to automate the prefixing process.
+
+### 15. **Explain the concept of "Z-index" and how stacking contexts work.**
+   - `z-index` determines the stacking order of elements that overlap.
+   - Elements with a higher `z-index` appear in front of those with lower values.
+   - Stacking context is created by elements that are positioned (`relative`, `absolute`, `fixed`, `sticky`) or with `opacity` less than 1, `transform`, etc.
+
+### 16. **What are the differences between `inline`, `block`, and `inline-block` elements?**
+   - `inline`: Elements flow within the text without starting on a new line (e.g., `<span>`).
+   - `block`: Elements take up the full width of their parent container and start on a new line (e.g., `<div>`).
+   - `inline-block`: Elements behave like inline elements but allow setting width and height (e.g., `<img>`).
+
+### 17. **How do you handle SVGs with CSS?**
+   - You can style SVGs directly with CSS using selectors like `fill`, `stroke`, and `stroke-width` on inline SVGs.
+   - For external SVGs, use `background-image` or inline them within HTML for more control.
+
+### 18. **What is the purpose of `@import` and `@font-face` in CSS?**
+   - `@import` allows you to import stylesheets into your CSS (use sparingly due to potential performance issues).
+   - `@font-face` allows you to define custom fonts to be used in your website.
+
+### 19. **What are some of the new features in CSS (CSS4 or modern CSS)?**
+   - Some features to discuss may include:
+     - `grid-template-areas` in Grid Layout.
+     - `clamp()` for responsive typography.
+     - CSS custom properties (variables).
+     - Logical properties (`margin-block`, `padding-inline`) for internationalization.
+     - Container Queries (still in draft) for more modular responsive designs.
+
+### 20. **What is the "critical rendering path," and how do you optimize CSS for it?**
+   - The critical rendering path refers to the sequence of steps a browser takes to render a page. 
+   - Optimizing CSS for the critical rendering path involves minimizing CSS, loading critical CSS first, and deferring non-essential CSS to improve performance.
+
+These questions aim to assess not only your technical expertise but also your ability to apply CSS in real-world scenarios with attention to performance, maintainability, and best practices.
